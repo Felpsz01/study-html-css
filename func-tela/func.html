@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="w-100">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" id="menuBtn" class="menu-header">
+                            <i class="mdi mdi-menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <aside>
+        <div class="pagina">
+            <div class="left-sidebar " id="sidebar">
+                <div class="content-sidebar">
+                    <div class="icons">
+                        <a href="#" class="car-icon">
+                            <i class=" mdi mdi-car-back"></i>
+                        </a>
+                        <a href="#" class="acc-icon">
+                            <i class="mdi mdi-account"></i>
+                        </a>
+                        <a href="#" class="conf-icon">
+                            <i class="mdi mdi-cog"></i>
+                        </a>
+                        <a href="#" class="power-icon">
+                            <i class="mdi mdi-power"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Funcionário</th>
+                        <th>Email</th>
+                      </tr>
+                      <tr>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                      </tr>
+                    
+                </table>
+            </div>
+        </main>
+    </aside>
+</body>
+<script>
+    const sidebar = document.getElementById("sidebar");
+    const menuBtn = document.getElementById("menuBtn");
+
+    menuBtn.onclick = () => {
+        sidebar.classList.toggle("active");
+    }
+</script>
+
+</html>

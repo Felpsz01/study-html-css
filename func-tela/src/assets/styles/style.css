@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito sans;
+}
+
+body {
+    background-color: #1B2431;
+}
+
+.pagina {
+    display: flex;
+    height: 100%;
+    align-items: stretch;
+}
+
+.left-sidebar {
+    min-width: 85px;
+    max-width: 85px;
+    background-color: #273142;
+    margin-left: -85px;
+    transition: 0.5s;
+}
+
+.menu-header{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    width: 18px;
+    height: 16px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+    margin-top: 390px;
+}
+
+.car-icon {
+    color: white;
+}
+
+.acc-icon {
+    color: white;
+}
+
+.conf-icon {
+    color: white;
+}
+
+.power-icon {
+    color: white;
+}
+
+.active {
+    margin-left: 0
+}
+
+.content-sidebar {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 85px;
+    background-color: #273142;
+}
+
+.menu-header {
+    color: white;
+    margin-left: 10px;
+}
+
+.center-table {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    background-color: #273142;
+
+}
+
+table {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
